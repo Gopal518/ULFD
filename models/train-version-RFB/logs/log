@@ -1,0 +1,22 @@
+2024-05-18 00:28:10,778 - root - INFO - inpu size :320
+priors nums:4420
+2024-05-18 00:28:11,668 - root - INFO - Namespace(balance_data=False, base_net=None, base_net_lr=None, batch_size=24, checkpoint_folder='./models/train-version-RFB', cuda_index='0', dataset_type='voc', datasets=['./data/wider_face_add_lm_10_10'], debug_steps=100, extra_layers_lr=None, freeze_base_net=False, freeze_net=False, gamma=0.1, input_size=320, log_dir='./models/train-version-RFB/logs', lr=0.01, milestones='5,8', momentum=0.9, net='RFB', num_epochs=10, num_workers=0, optimizer_type='SGD', overlap_threshold=0.35, power=2, pretrained_ssd=None, resume=None, scheduler='multi-step', t_max=120, use_cuda=True, validation_dataset='./data/wider_face_add_lm_10_10', validation_epochs=5, weight_decay=0.0005)
+2024-05-18 00:28:11,669 - root - INFO - Prepare training datasets.
+2024-05-18 00:28:11,671 - root - INFO - VOC Labels read from file: ('BACKGROUND', 'person')
+2024-05-18 00:28:11,671 - root - INFO - Stored labels into file ./models/train-version-RFB/voc-model-labels.txt.
+2024-05-18 00:28:11,671 - root - INFO - Train dataset size: 2373
+2024-05-18 00:28:11,671 - root - INFO - Prepare Validation datasets.
+2024-05-18 00:28:11,671 - root - INFO - VOC Labels read from file: ('BACKGROUND', 'person')
+2024-05-18 00:28:11,671 - root - INFO - validation dataset size: 653
+2024-05-18 00:28:11,672 - root - INFO - Build network.
+2024-05-18 00:28:11,685 - root - INFO - Took 0.00 seconds to load the model.
+2024-05-18 00:28:11,688 - root - INFO - Learning rate: 0.01, Base net learning rate: 0.01, Extra Layers learning rate: 0.01.
+2024-05-18 00:28:11,688 - root - INFO - Uses MultiStepLR scheduler.
+2024-05-18 00:28:11,688 - root - INFO - Start training from epoch 0.
+...................................................................................................2024-05-18 00:30:44,506 - root - INFO - lr rate :0.01
+2024-05-18 00:30:44,506 - root - INFO - lr rate :0.01
+2024-05-18 00:31:14,893 - root - INFO - Epoch: 0, Validation Loss: 6.8777, Validation Regression Loss 4.4793, Validation Classification Loss: 2.3985
+2024-05-18 00:31:14,906 - root - INFO - Saved model ./models/train-version-RFB/RFB-Epoch-0-Loss-6.877737028258188.pth
+...................................................................................................2024-05-18 00:33:55,710 - root - INFO - lr rate :0.01
+...................................................................................................2024-05-18 00:36:39,687 - root - INFO - lr rate :0.01
+....................................................................
